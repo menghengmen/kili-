@@ -1,0 +1,4 @@
+{
+    NSPhotoLibraryUsageDescription = "Are you allowed to access albums to save screenshots?";
+    CFBundleDisplayName = "喝水吧";
+}
