@@ -19,7 +19,7 @@
 - (NSMutableArray*)dataArr{
     if (!_dataArr) {
         _dataArr = [NSMutableArray array];
-
+        NSLog(@"fafa");
         [_dataArr addObject:@"空格行"];
         ProfileTextCellModel* sexModel = [ProfileTextCellModel new];
         sexModel.width = self.view.width - 70 - 20 - 10 - 50;

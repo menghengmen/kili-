@@ -22,6 +22,7 @@
 @implementation ProfileOptionThreeTableViewCell
 
 - (void)refreshUI:(ProfileOptionThreeCellModel*)dataModel{
+    
     _dataModel = dataModel;
 
     self.bgView.layer.borderColor = [UIColor clearColor].CGColor;
